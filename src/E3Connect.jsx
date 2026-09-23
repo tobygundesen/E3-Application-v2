@@ -106,6 +106,15 @@ function HomeScreen({ setScreen }) {
           <DashboardCard title="Avg Rating" value="4.8★" />
           <DashboardCard title="Match Success" value="91%" />
         </div>
+
+        <div className="mt-8 sm:mt-10 flex flex-col items-center justify-center gap-2 border-t border-slate-200 pt-5 sm:pt-6">
+          <span className="text-xs sm:text-sm font-semibold text-slate-500">Powered by</span>
+          <img
+            src="/campusx-logo.svg"
+            alt="CampusX Logo"
+            className="h-9 sm:h-11 w-auto"
+          />
+        </div>
       </div>
 
       <BottomNav activeScreen="home" setScreen={setScreen} />

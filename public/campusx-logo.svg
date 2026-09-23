@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 82" role="img" aria-labelledby="title desc">
+  <title id="title">CampusX Logo</title>
+  <desc id="desc">Orange CampusX mark</desc>
+  <g fill="#F08A68">
+    <path d="M178 4c8-8 22-5 28 3 5 8 4 18-2 26l-35 43c-7 9-20 9-27 1l-13-16 49-57z"/>
+    <path d="M178 78c8 8 22 5 28-3 5-8 4-18-2-26l-35-43c-7-9-20-9-27-1l-13 16 49 57z"/>
+  </g>
+</svg>
