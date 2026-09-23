@@ -15,6 +15,8 @@
   <g transform="translate(585 0)">
     <path d="M0 24 L55 24 L118 108 L63 108 Z" fill="#F1A38A"/>
     <path d="M118 24 L173 24 L110 108 L55 108 Z" fill="#F1A38A"/>
+    <path d="M0 108 L55 108 L118 192 L63 192 Z" fill="#F1A38A"/>
+    <path d="M118 108 L173 108 L110 192 L55 192 Z" fill="#F1A38A"/>
   </g>
 
   <!-- White wordmark -->
