@@ -1,21 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 110" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" role="img" aria-labelledby="title desc">
   <title id="title">CampusX logo</title>
-  <desc id="desc">CampusX logo with a coral X and white wordmark</desc>
-
+  <desc id="desc">CampusX white wordmark with coral X accent</desc>
   <defs>
     <style>
       .word {
         font-family: "Segoe UI", Arial, sans-serif;
         font-weight: 700;
-        letter-spacing: -2px;
+        letter-spacing: -4px;
       }
     </style>
   </defs>
 
-  <!-- Coral X accent -->
-  <path d="M392 12 L420 12 L336 98 L308 98 Z" fill="#F2A28A"/>
-  <path d="M308 12 L336 12 L420 98 L392 98 Z" fill="#F2A28A"/>
+  <!-- Coral X accent on far right -->
+  <g transform="translate(585 0)">
+    <path d="M0 24 L55 24 L118 108 L63 108 Z" fill="#F1A38A"/>
+    <path d="M118 24 L173 24 L110 108 L55 108 Z" fill="#F1A38A"/>
+  </g>
 
-  <!-- White CampusX wordmark -->
-  <text x="20" y="74" class="word" font-size="62" fill="#FFFFFF">CampusX</text>
+  <!-- White wordmark -->
+  <text x="18" y="126" class="word" font-size="118" fill="#FFFFFF">CampusX</text>
 </svg>
