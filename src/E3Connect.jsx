@@ -85,23 +85,23 @@ export default function E3Connect() {
 
 function MyCampusBadge() {
   return (
-    <div className="inline-flex items-center justify-center rounded-[10px] border border-[#001B5E]/10 bg-[#001B5E] shadow-sm overflow-hidden w-[210px] h-[54px] sm:w-[240px] sm:h-[60px]">
-      <svg viewBox="0 0 240 60" className="w-full h-full" aria-label="MyCampus logo" role="img">
-        <rect width="240" height="60" fill="#001B5E" rx="8" />
+    <div className="inline-flex h-10 w-[170px] items-center justify-center overflow-hidden rounded-[6px] bg-[#001B5E] shadow-[0_1px_0_rgba(0,0,0,0.08)] sm:h-11 sm:w-[190px]">
+      <svg viewBox="0 0 220 48" className="h-full w-full" aria-label="MyCampus logo" role="img">
+        <rect width="220" height="48" fill="#001B5E" rx="6" />
         <text
-          x="16"
-          y="38"
-          fill="#F4F7FB"
-          fontSize="27"
+          x="14"
+          y="31"
+          fill="#F7F9FC"
+          fontSize="22"
           fontWeight="900"
           fontFamily="Arial, Helvetica, sans-serif"
-          letterSpacing="-1.2"
+          letterSpacing="-1.4"
         >
           MyCampus
         </text>
         <path
-          d="M189 10 L192.8 18.5 L201.5 18.5 L194.7 24 L197.7 32.5 L189 27.4 L180.3 32.5 L183.3 24 L176.5 18.5 L185.2 18.5 Z"
-          fill="#37A7FF"
+          d="M186 8 L189.5 15.5 L197 15.5 L191.5 20 L194 27.5 L186 22.5 L178 27.5 L180.5 20 L175 15.5 L182.5 15.5 Z"
+          fill="#36A6FF"
         />
       </svg>
     </div>
