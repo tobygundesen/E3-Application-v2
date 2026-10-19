@@ -83,12 +83,40 @@ export default function E3Connect() {
   );
 }
 
+function CampusBadge() {
+  return (
+    <div className="h-10 w-[180px] sm:h-12 sm:w-[220px] overflow-hidden rounded-md shadow-sm border border-[#001B5E]/10 bg-[#001B5E]">
+      <svg viewBox="0 0 220 48" className="h-full w-full" aria-label="MyCampus logo" role="img">
+        <rect width="220" height="48" fill="#001B5E" />
+        <text
+          x="14"
+          y="31"
+          fill="#F7F9FC"
+          fontSize="22"
+          fontWeight="900"
+          fontFamily="Arial, Helvetica, sans-serif"
+          letterSpacing="-1.5"
+        >
+          MyCampus
+        </text>
+        <path
+          d="M189 8 L192.5 15.5 L200 15.5 L194 20 L196.5 27.5 L189 23 L181.5 27.5 L184 20 L178 15.5 L185.5 15.5 Z"
+          fill="#1CA3FF"
+        />
+      </svg>
+    </div>
+  );
+}
+
 function HomeScreen({ setScreen }) {
   return (
     <div className="h-full flex flex-col">
       <div className="bg-[#001B5E] text-white p-4 sm:p-5 pt-8 sm:pt-10 pb-4 sm:pb-5">
         <div className="text-xs sm:text-sm opacity-80">Welcome to</div>
-        <h1 className="text-3xl sm:text-4xl font-black">E3 Connect</h1>
+        <div className="mt-1 flex items-center gap-2 sm:gap-3 flex-wrap">
+          <h1 className="text-3xl sm:text-4xl font-black leading-none">E3 Connect</h1>
+          <CampusBadge />
+        </div>
         <p className="mt-2 sm:mt-3 text-xs sm:text-base text-white/80">Connect. Coach. Grow.</p>
       </div>
 
